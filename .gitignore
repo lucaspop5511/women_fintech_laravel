@@ -1,19 +1,30 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
+# Laravel-specific
 /vendor
+/node_modules
+/storage/*.key
+/public/storage
 .env
-.env.backup
-.env.production
+
+# Caches and temporary files
+.phpunit.cache
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
+.env.backup
+.env.production
+
+# Editor and system-specific files
 /.idea
 /.vscode
+/.fleet
+*.log
+npm-debug.log
+yarn-error.log
+
+# Build and deployment files
+/public/build
+/public/hot
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
